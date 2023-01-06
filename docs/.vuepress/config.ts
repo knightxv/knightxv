@@ -19,7 +19,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     '/': {
       lang: 'zh-CN',
       title: "knightxv blog",
-      description: 'Golang技术博客,专注Golang后端学习与总结。Linux,k8s,Docker,Golang,等技术文章。',
+      description: 'Golang技术博客,专注Golang后端学习与总结。Linux,k8s,Docker,Golang,Mysql,Redis,Kafka,RabbitMQ等技术文章。',
     }
   },
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
@@ -35,49 +35,70 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: '前端文章',
+            text: 'Golang学习笔记',
             items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+              { text: 'Golang基础实战', link: '/note/basics/' },
+              { text: 'Golang并发编程', link: '/note/concurrency/' },
+              { text: 'Go Web编程', link: '/note/goweb/' },
+              { text: 'GO设计模式', link: '/pages/4643cd/' },
             ],
           },
-          // {
-          //   text: '学习笔记',
-          //   items: [
-          //     { text: '《JavaScript教程》', link: '/note/javascript/' },
-          //     { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-          //   ],
-          // },
+          {
+            text: 'Golang源码分析',
+            items: [
+              { text: 'Map数据结构', link: '/pages/8143cc480faf9a11/' },
+              { text: 'Slice数据结构', link: '/pages/b1af5cb8996363c5/' },
+              { text: 'Mutex锁实现', link: '/pages/1f4123be6f45abcd/' },
+              { text: 'Select多路复用', link: '/pages/e808fba1fa8fbab2/' },
+              { text: 'GPM并发模型', link: '/pages/40b4db2d38ba85f2/' },
+              { text: 'GC垃圾回收', link: '/pages/40f623be692cf8bc/' },
+              { text: '抢占式调度', link: '/pages/f1acb712033ac8da/' },
+              { text: '信号量机制', link: '/pages/0f6a0ac99b62ede5/' },
+              { text: '堆栈内存管理', link: '/pages/7a91be2d502346ce/' },
+            ],
+          },
+        ],
+      },
+      {
+        text: '中间件',
+        link: '/middleware/',
+        items: [
+          { text: 'Mysql', link: '/pages/0a83b083bdf257cb/' },
+          { text: 'Redis', link: '/pages/20a978023139589d/' },
+          { text: 'Kafka', link: '/pages/02d7f59d98d87409/' },
         ],
       },
       {
         text: '分布式',
-        link: '/ui/',
+        link: '/distributed/',
         items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          { text: '负载均衡算法', link: '/pages/9a7ee40fc232253e/' },
+          { text: '分布式锁', link: '/pages/4c778760be26d8b3/' },
+          { text: '分布式事务', link: '/pages/1da0bf9a988eafe5/' },
+          { text: '一致性算法', link: '/pages/d557b9a89a215d2e/' },
+        ],
+      },
+      
+      {
+        text: '云原生',
+        link: '/cloud/',
+        items: [
+          { text: 'Linux', link: '/pages/9a7ee40fc232253e/' },
+          { text: 'Docker', link: '/pages/4c778760be26d8b3/' },
+          { text: 'K8s', link: '/pages/117708e0af7f0bd9/' },
+          { text: 'Ngnix', link: '/pages/41f87d890d0a02af/' },
         ],
       },
       {
-        text: '技术',
-        link: '/technology/',
+        text: '项目案例分享',
+        link: '/project/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Ubuntu环境搭建', link: '/pages/117708e0af7f0bd9/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+          { text: 'IM系统', link: '/pages/8309a5b876fc95e3/' },
+          { text: '秒杀场景', link: '/pages/c8f128/' },
+          { text: '数据库分库分表', link: '/pages/c8f128/' },
         ],
       },
-      {
-        text: '更多',
-        link: '/more/',
-        items: [
-          { text: '学习', link: '/pages/f2a556/' },
-          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-          { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-          { text: '实用技巧', link: '/pages/baaa02/' },
-          { text: '友情链接', link: '/friends/' },
-        ],
-      },
+      
       { text: '关于', link: '/about/' },
       {
         text: '收藏',
@@ -97,10 +118,18 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '归档', link: '/archives/' },
         ],
       },
+      {
+        text: '更多',
+        link: '/more/',
+        items: [
+          { text: '学习', link: '/pages/f2a556/' },
+          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
+        ],
+      },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'knightxv/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    repo: 'knightxv', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
