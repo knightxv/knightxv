@@ -9,16 +9,16 @@ tagline: Golang技术博客，积跬步以至千里，致敬每个爱学习的�
 
 features: # 可选的
   - title: Golang
-    details: Golang相关技术
+    details: Golang学习笔记
     link: /golang/ # 可选
     imgUrl: /img/web.png # 可选
   - title: 中间件
-    details: Mysql,Redis,Kafka等相关技术
-    link: /ui/
+    details: Mysql,Redis,Kafka等相关技术文档
+    link: /middleware/
     imgUrl: /img/ui.png
-  - title: 云原生
-    details: K8s,Docker，Linux等云原生技术
-    link: /technology/
+  - title: 项目案例分享
+    details: 亲身经历过的一些项目实例分享
+    link: /project/
     imgUrl: /img/other.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表

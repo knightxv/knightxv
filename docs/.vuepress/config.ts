@@ -72,10 +72,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '分布式',
         link: '/distributed/',
         items: [
-          { text: '负载均衡算法', link: '/pages/9a7ee40fc232253e/' },
-          { text: '分布式锁', link: '/pages/4c778760be26d8b3/' },
-          { text: '分布式事务', link: '/pages/1da0bf9a988eafe5/' },
-          { text: '一致性算法', link: '/pages/d557b9a89a215d2e/' },
+          { text: '分布式系统简介', link: '/pages/1b3fc1/' },
+          { text: '负载均衡算法', link: '/pages/5a4b49/' },
+          { text: '分布式锁', link: '/pages/a2771c/' },
+          { text: '分布式事务', link: '/pages/bc9e47/' },
+          { text: '一致性算法', link: '/pages/dc26b3/' },
         ],
       },
       
@@ -93,9 +94,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '项目案例分享',
         link: '/project/',
         items: [
-          { text: 'IM系统', link: '/pages/8309a5b876fc95e3/' },
-          { text: '秒杀场景', link: '/pages/c8f128/' },
-          { text: '数据库分库分表', link: '/pages/c8f128/' },
+          { text: 'IM系统', link: '/pages/711f81/' },
+          { text: '秒杀系统', link: '/pages/d856af/' },
+          { text: '数据库分库分表', link: '/pages/1a65ee/' },
         ],
       },
       
