@@ -22,7 +22,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       description: 'Golang技术博客,专注Golang后端学习与总结。Linux,k8s,Docker,Golang,Mysql,Redis,Kafka,RabbitMQ等技术文章。',
     }
   },
-  // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  base: "/learn/", // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
 
   // 主题配置
   themeConfig: {
@@ -64,7 +64,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/middleware/',
         items: [
           { text: 'Mysql', link: '/pages/0a83b083bdf257cb/' },
-          { text: 'Redis', link: '/pages/20a978023139589d/' },
+          { text: 'Redis', link: '/pages/188a39/' },
           { text: 'Kafka', link: '/pages/02d7f59d98d87409/' },
         ],
       },
@@ -254,12 +254,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 插件配置
   plugins: <UserPlugins>[
-    [
-      "sitemap", // 网站地图
-      {
-        hostname: WEB_SITE,
-      },
-    ],
+    // [
+    //   "sitemap", // 网站地图
+    //   {
+    //     hostname: WEB_SITE,
+    //   },
+    // ],
 
     // 'vuepress-plugin-baidu-autopush', // 百度自动推送
 
