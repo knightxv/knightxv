@@ -84,10 +84,25 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '云原生',
         link: '/cloud/',
         items: [
-          { text: 'Linux', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'Docker', link: '/pages/4c778760be26d8b3/' },
-          { text: 'K8s', link: '/pages/117708e0af7f0bd9/' },
-          { text: 'Ngnix', link: '/pages/41f87d890d0a02af/' },
+          {
+            text: '云原生',
+            items: [
+              { text: 'Docker', link: '/pages/76e4ce/' },
+              { text: 'K8s', link: '/pages/659fe3/' },
+            ],
+          },
+          {
+            text: 'Linux',
+            items: [
+              { text: 'Linux', link: '/pages/9a7ee40fc232253e/' },
+            ],
+          },
+          {
+            text: 'Linux',
+            items: [
+              { text: 'Ngnix', link: '/pages/41f87d890d0a02af/' },
+            ],
+          },
         ],
       },
       {
