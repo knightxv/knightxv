@@ -40,7 +40,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: 'Golang基础实战', link: '/note/basics/' },
               { text: 'Golang并发编程', link: '/note/concurrency/' },
               { text: 'Go Web编程', link: '/note/goweb/' },
-              { text: 'GO设计模式', link: '/pages/4643cd/' },
+              { text: 'GO设计模式', link: '/note/design/' },
             ],
           },
           {
