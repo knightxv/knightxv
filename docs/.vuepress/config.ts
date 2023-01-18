@@ -70,13 +70,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: '分布式',
-        link: '/distributed/',
+        link: '/pages/1b3fc1/',
         items: [
           { text: '分布式系统简介', link: '/pages/1b3fc1/' },
-          { text: '负载均衡算法', link: '/pages/5a4b49/' },
           { text: '分布式锁', link: '/pages/a2771c/' },
           { text: '分布式事务', link: '/pages/bc9e47/' },
-          { text: '一致性算法', link: '/pages/dc26b3/' },
+          { text: '共识算法', link: '/pages/dc26b3/' },
         ],
       },
       
@@ -92,15 +91,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
           {
-            text: 'Linux',
+            text: 'Ngnix',
             items: [
-              { text: 'Linux', link: '/pages/9a7ee40fc232253e/' },
+              { text: 'Ngnix', link: '/pages/d57825/' },
             ],
           },
           {
             text: 'Linux',
             items: [
-              { text: 'Ngnix', link: '/pages/41f87d890d0a02af/' },
+              { text: 'Linux', link: '/pages/b88ef2/' },
             ],
           },
         ],
@@ -109,8 +108,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '项目案例分享',
         link: '/project/',
         items: [
-          { text: 'IM系统', link: '/pages/711f81/' },
+          { text: 'IM系统', link: '/pages/8c4a48/' },
           { text: '秒杀系统', link: '/pages/d856af/' },
+          { text: '缓存一致性实践', link: '/pages/c7d922/' },
           { text: '数据库分库分表', link: '/pages/1a65ee/' },
         ],
       },
@@ -140,6 +140,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: '学习', link: '/pages/f2a556/' },
           { text: '面试', link: '/pages/aea6571b7a8bae86/' },
+          { text: '心情杂谈', link: '/pages/2d615df9a36a98ed/' },
+          { text: '实用技巧', link: '/pages/baaa02/' },
         ],
       },
     ],
@@ -198,9 +200,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://fastly.jsdelivr.net/gh/knightxv/image_store/blog/20200103123203.jpg',
-      name: 'Evan Xu',
-      slogan: '前端界的小学生',
+      avatar: 'https://cdn.staticaly.com/gh/knightxv/image-hosting@master/20230118/21257387.37qtdt8nb6q0.webp',
+      name: 'knightxv',
+      slogan: '立志成为架构师的一名普通gopher~',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.knightxv.com/pages/a20ce8/#social)
@@ -210,17 +212,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com',
+          link: 'mailto:962068006@qq.com',
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
           link: 'https://github.com/knightxv',
-        },
-        {
-          iconClass: 'icon-erji',
-          title: '听音乐',
-          link: 'https://music.163.com/#/playlist?id=755597173',
         },
       ],
     },
