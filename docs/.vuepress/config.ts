@@ -37,7 +37,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: 'Golang学习笔记',
             items: [
-              { text: 'Golang基础实战', link: '/note/basics/' },
               { text: 'Golang并发编程', link: '/note/concurrency/' },
               { text: 'Go Web编程', link: '/note/goweb/' },
               { text: 'GO设计模式', link: '/note/design/' },
@@ -46,15 +45,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: 'Golang源码分析',
             items: [
-              { text: 'Map数据结构', link: '/pages/8143cc480faf9a11/' },
-              { text: 'Slice数据结构', link: '/pages/b1af5cb8996363c5/' },
-              { text: 'Mutex锁实现', link: '/pages/1f4123be6f45abcd/' },
-              { text: 'Select多路复用', link: '/pages/e808fba1fa8fbab2/' },
-              { text: 'GPM并发模型', link: '/pages/40b4db2d38ba85f2/' },
-              { text: 'GC垃圾回收', link: '/pages/40f623be692cf8bc/' },
-              { text: '抢占式调度', link: '/pages/f1acb712033ac8da/' },
-              { text: '信号量机制', link: '/pages/0f6a0ac99b62ede5/' },
-              { text: '堆栈内存管理', link: '/pages/7a91be2d502346ce/' },
+              { text: 'Map数据结构', link: '/pages/2a2a29/' },
+              { text: 'Slice数据结构', link: '/pages/033145/' },
+              { text: 'Mutex锁实现', link: '/pages/fa897f/' },
+              { text: 'Select多路复用', link: '/pages/6fd99d/' },
+              { text: 'channel数据结构', link: '/pages/ef333e/' },
+              { text: 'GC垃圾回收', link: '/pages/6f723b/' },
+              { text: '抢占式调度', link: '/pages/a9fc54/' },
+              { text: '信号量机制', link: '/pages/ebdafb/' },
+              { text: '堆栈内存管理', link: '/pages/5c796e/' },
+              { text: 'RWMutex', link: '/pages/650967/' },
+              { text: 'syncMap', link: '/pages/e50bab/' },
             ],
           },
         ],
@@ -63,9 +64,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '中间件',
         link: '/middleware/',
         items: [
-          { text: 'Mysql', link: '/pages/0a83b083bdf257cb/' },
+          { text: 'Mysql', link: '/pages/a27277/' },
           { text: 'Redis', link: '/pages/188a39/' },
-          { text: 'Kafka', link: '/pages/02d7f59d98d87409/' },
+          { text: 'Kafka', link: '/pages/835ebb/' },
         ],
       },
       {
@@ -76,6 +77,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '分布式锁', link: '/pages/a2771c/' },
           { text: '分布式事务', link: '/pages/bc9e47/' },
           { text: '共识算法', link: '/pages/dc26b3/' },
+          { text: '分布式方案', link: '/pages/04f3b6/' },
         ],
       },
       

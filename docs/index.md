@@ -5,21 +5,21 @@ heroText: knightxv's blog
 tagline: Golang技术博客，积跬步以至千里，致敬每个爱学习的你。
 # actionText: 立刻进入 →
 # actionLink: /web/
-# bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+bannerBg: background:rgb(26 158 193) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABOSURBVFhH7c6xCQAgDAVRR9A6E4hLu4uLiWJ7tSnuQcIvr2TRYsw3/zOGGEOMIcYQY4gxxBhiDDGGGEOMIcYQY4gxxBhiDLkx52W4Gn1tuslCtHJvL54AAAAASUVORK5CYII=) # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
   - title: Golang
     details: Golang学习笔记
     link: /golang/ # 可选
-    imgUrl: /img/web.png # 可选
-  - title: 中间件
-    details: Mysql,Redis,Kafka等相关技术文档
-    link: /middleware/
-    imgUrl: /img/ui.png
+    imgUrl: https://cdn.staticaly.com/gh/knightxv/image-hosting@master/20230119/go.4wsfmvt6xci0.webp # 可选
+  - title: 云原生
+    details: Docker,Linux,Ngnix等相关技术文档
+    link: /pages/76e4ce/
+    imgUrl: https://cdn.staticaly.com/gh/knightxv/image-hosting@master/20230119/ui.2bgjp1w4t5es.webp
   - title: 项目案例分享
     details: 亲身经历过的一些项目实例分享
-    link: /project/
-    imgUrl: /img/other.png
+    link: /pages/8c4a48/
+    imgUrl: https://cdn.staticaly.com/gh/knightxv/image-hosting@master/20230119/u=2886541683,1200724525&fm=253&fmt=auto&app=138&f=JPEG.5fsgp188viw0.webp
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
