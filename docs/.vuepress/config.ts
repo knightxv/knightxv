@@ -52,10 +52,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: 'channel数据结构', link: '/pages/ef333e/' },
               { text: 'GC垃圾回收', link: '/pages/6f723b/' },
               { text: '抢占式调度', link: '/pages/a9fc54/' },
-              { text: '信号量机制', link: '/pages/ebdafb/' },
-              { text: '堆栈内存管理', link: '/pages/5c796e/' },
-              { text: 'RWMutex', link: '/pages/650967/' },
+              { text: '栈内存管理', link: '/pages/ea484b/' },
+              { text: '堆内存管理', link: '/pages/5c796e/' },
               { text: 'syncMap', link: '/pages/e50bab/' },
+              { text: 'RWMutex', link: '/pages/650967/' },
             ],
           },
         ],
@@ -64,7 +64,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '中间件',
         link: '/middleware/',
         items: [
-          { text: 'Mysql', link: '/pages/a27277/' },
           { text: 'Redis', link: '/pages/188a39/' },
           { text: 'Kafka', link: '/pages/835ebb/' },
         ],
@@ -93,15 +92,21 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
           {
-            text: 'Ngnix',
+            text: '网络编程',
             items: [
-              { text: 'Ngnix', link: '/pages/d57825/' },
+              { text: '网络编程', link: '/pages/3c1fcd/' },
             ],
           },
           {
             text: 'Linux',
             items: [
               { text: 'Linux', link: '/pages/b88ef2/' },
+            ],
+          },
+          {
+            text: 'Ngnix',
+            items: [
+              { text: 'Ngnix', link: '/pages/d57825/' },
             ],
           },
         ],
