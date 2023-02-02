@@ -65,6 +65,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/middleware/',
         items: [
           { text: 'Redis', link: '/pages/188a39/' },
+          { text: 'Mysql', link: '/pages/c7c832/' },
           { text: 'Kafka', link: '/pages/835ebb/' },
         ],
       },
@@ -92,15 +93,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
           {
-            text: '网络编程',
+            text: '计算机编程',
             items: [
               { text: '网络编程', link: '/pages/3c1fcd/' },
+              { text: '系统编程', link: '/pages/f3939b/' },
             ],
           },
           {
             text: 'Linux',
             items: [
               { text: 'Linux', link: '/pages/b88ef2/' },
+              { text: 'Shell', link: '/pages/116a48/' },
             ],
           },
           {
