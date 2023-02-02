@@ -5,13 +5,13 @@
   "author": {
     "name": "gaoyi(Evan) Xu"
   },
-  "homepage": "https://github.com/knightxv/learn#readme",
+  "homepage": "https://github.com/knightxv/knightxv#readme",
   "bugs": {
-    "url": "https://github.com/knightxv/learn/issues"
+    "url": "https://github.com/knightxv/knightxv/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/knightxv/learn.git"
+    "url": "git+https://github.com/knightxv/knightxv.git"
   },
   "keywords": [
     "documentation",

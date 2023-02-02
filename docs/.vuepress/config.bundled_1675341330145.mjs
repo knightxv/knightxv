@@ -18,7 +18,7 @@ var config_default = defineConfig4CustomTheme({
       description: "Golang\u6280\u672F\u535A\u5BA2,\u4E13\u6CE8Golang\u540E\u7AEF\u5B66\u4E60\u4E0E\u603B\u7ED3\u3002Linux,k8s,Docker,Golang,Mysql,Redis,Kafka,RabbitMQ\u7B49\u6280\u672F\u6587\u7AE0\u3002"
     }
   },
-  base: "/learn/",
+  base: "/",
   themeConfig: {
     nav: [
       { text: "\u9996\u9875", link: "/" },
@@ -174,7 +174,7 @@ var config_default = defineConfig4CustomTheme({
     },
     footer: {
       createYear: 2019,
-      copyrightInfo: 'Evan Xu | <a href="https://github.com/knightxv/learn/blob/master/LICENSE" target="_blank">MIT License</a>'
+      copyrightInfo: 'Evan Xu | <a href="https://github.com/knightxv/knightxv/blob/master/LICENSE" target="_blank">MIT License</a>'
     },
     extendFrontmatter: {
       author: {

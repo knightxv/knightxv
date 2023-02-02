@@ -171,7 +171,7 @@ var config_default = defineConfig4CustomTheme({
     },
     footer: {
       createYear: 2019,
-      copyrightInfo: 'Evan Xu | <a href="https://github.com/knightxv/learn/blob/master/LICENSE" target="_blank">MIT License</a>'
+      copyrightInfo: 'Evan Xu | <a href="https://github.com/knightxv/knightxv/blob/master/LICENSE" target="_blank">MIT License</a>'
     },
     extendFrontmatter: {
       author: {

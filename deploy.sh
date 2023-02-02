@@ -18,7 +18,8 @@ cd $dist_path
 git init
 git add -A
 git commit -m "deploy, $commit_info"
-git push -f git@github.com:knightxv/learn.git HEAD:$push_branch
+git push -f git@github.com:knightxv/knightxv.github.io.git master
+# git push -f git@github.com:knightxv/knightxv.github.io.git HEAD:$push_branch
 
 cd -
 rm -rf $dist_path
