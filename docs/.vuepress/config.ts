@@ -119,7 +119,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/project/',
         items: [
           { text: 'IM系统', link: '/pages/8c4a48/' },
-          { text: '秒杀系统', link: '/pages/d856af/' },
+          { text: '数字商品抢购系统', link: '/pages/d856af/' },
           { text: '缓存一致性实践', link: '/pages/c7d922/' },
           { text: '数据库分库分表', link: '/pages/1a65ee/' },
         ],
