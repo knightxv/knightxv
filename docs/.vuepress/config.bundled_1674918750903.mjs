@@ -151,7 +151,7 @@ var config_default = defineConfig4CustomTheme({
       link: "https://github.com/knightxv"
     },
     blogger: {
-      avatar: "https://cdn.staticaly.com/gh/knightxv/image-hosting@master/20230118/21257387.37qtdt8nb6q0.webp",
+      avatar: "/img/avatar.webp",
       name: "knightxv",
       slogan: "\u7ACB\u5FD7\u6210\u4E3A\u67B6\u6784\u5E08\u7684\u4E00\u540D\u666E\u901Agopher~"
     },
