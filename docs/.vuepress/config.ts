@@ -210,7 +210,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://cdn.statically.io/gh/knightxv/image-hosting@master/21257387.37qtdt8nb6q0.5nrhimpl5i00.webp',
+      avatar: 'https://jsd.cdn.zzko.cn/gh/knightxv/image-hosting@master/21257387.37qtdt8nb6q0.5nrhimpl5i00.webp',
       name: 'knightxv',
       slogan: '立志成为架构师的一名普通gopher~',
     },

@@ -11,15 +11,15 @@ features: # 可选的
   - title: Golang
     details: Golang学习笔记
     link: /golang/ # 可选
-    imgUrl: https://cdn.statically.io/gh/knightxv/image-hosting@master/go.3mjsvkc4qfo0.webp # 可选
+    imgUrl: https://jsd.cdn.zzko.cn/gh/knightxv/image-hosting@master/go.3mjsvkc4qfo0.webp # 可选
   - title: 云原生
     details: Docker,Linux,Ngnix等相关技术文档
     link: /pages/76e4ce/
-    imgUrl: https://cdn.statically.io/gh/knightxv/image-hosting@master/ui.1yim5lzuwi80.76iu1ez786g0.webp
+    imgUrl: https://jsd.cdn.zzko.cn/gh/knightxv/image-hosting@master/ui.1yim5lzuwi80.76iu1ez786g0.webp
   - title: 项目案例分享
     details: 亲身经历过的一些项目实例分享
     link: /pages/8c4a48/
-    imgUrl: https://cdn.statically.io/gh/knightxv/image-hosting@master/u=2886541683,1200724525&fm=253&fmt=auto&app=138&f=JPEG.5fsgp188viw0.3yy50qur4520.webp
+    imgUrl: https://jsd.cdn.zzko.cn/gh/knightxv/image-hosting@master/u=2886541683,1200724525&fm=253&fmt=auto&app=138&f=JPEG.5fsgp188viw0.3yy50qur4520.webp
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
